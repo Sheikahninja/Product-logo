@@ -1,0 +1,5 @@
+git checkout --orphan assets
+git rm -rf .
+git add Saddle logs.png
+git commit -m "Added Assets"
+git push origin assets
